@@ -49,7 +49,7 @@ function App() {
         <h1>BANK</h1>
         <Routes>
           <Route
-            path="/"
+            path="*"
             element={
               <SignIn
                 listOfClient={listOfClient}

@@ -35,9 +35,8 @@ export default function SignIn(props) {
       <button
         onClick={() => {
           {
-            props.listOfClient.map((val, index) => {
-              valid(val, index);
-            });
+            props.listOfClient.map((val, index) => 
+              valid(val, index));
           }
         }}
       >
